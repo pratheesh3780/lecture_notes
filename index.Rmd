@@ -1,0 +1,37 @@
+---
+title: "LECTURE NOTES OF STAT 3202"
+author: "Dr. Pratheesh P. Gopinath"
+date: "2022-01-30"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: https://github.com/pratheesh3780/lecture_notes
+description: "A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE"
+cover-image: images/coverpage.PNG
+---  
+ 
+
+# Welcome {-} 
+<p style="text-align: center;"><a href="https://coavellayani.kau.in/people/dr-pratheesh-p-gopinath"><img src="images/cover.png" alt="DAEA cover" /></a></p>  
+Welcome to the book **LECTURE NOTES ON STATISTICAL METHODS AND APPLICATIONS**.
+
+# Preface {-}  
+<p style="text-align: justify;">
+</p>  
+
+
+
+<p style="text-align: justify;"> **Note**: This book is published by XXXXXXXX. The online version of this book is free to read here.</p> 
+````{=html}
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+````
+<p style="text-align: justify;">If you have any feedback, please feel free to [file an issue on GitHub](https://github.com/pratheesh3780/basic-statistics). Thank you!</p>  
+
+<p style="text-align: center;">This book is a collection of all lecture notes covering the syllabus of statistics course in B.Sc.(Hons.) Agriculture under Kerala Agricultural University </p>  
+
+
+
+
+
