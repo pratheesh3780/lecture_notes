@@ -264,7 +264,7 @@ Table shows the number of children per family for 54 families selected
 from a town in India. The data, presented in this form in which it was
 collected, is called raw data.
 
-![hhgvhg.JPG](media\image3.jpeg){width="5.541666666666667in"
+![hhgvhg.JPG](images\image3.jpeg){width="5.541666666666667in"
 height="0.7916666666666666in"}
 
 It can be seen that, the minimum and the maximum numbers of children per
