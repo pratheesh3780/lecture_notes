@@ -80,99 +80,64 @@ A sample is part of the population we study to learn about the population.
 ### Variables  
 
 <p style="text-align: justify;">Any type of observation which can take different values for different people, or different values at different times, or places, is called a variable. The following are examples of variables:  
-* family size, number of hospital beds, number of schools in a country, etc.
+
+* family size, number of hospital beds, number of schools in a country, etc.  
+
 * height, mass, blood pressure, temperature, blood glucose level, etc.</p>  
 
 <p style="text-align: justify;">Broadly speaking, there are two types of variables -- **quantitative** and **qualitative** (or categorical) variables</p>
 
 ### Constants
 
-<p style="text-align: justify;">Constants are characteristics that have values that do not change. Examples of constants are: pi (π) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159\...) and *e*, the base of the natural or (Napierian) logarithms (*e*=2.71828).</p>
+<p style="text-align: justify;">Constants are characteristics that have values that do not change. Examples of constants are: pi (𝝅) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159\...) and *e*, the base of the natural or (Napierian) logarithms (*e*=2.71828).</p>
 
-**[Types of variables]{.ul}**
+## Types of variables
 
-**Quantitative variables**
+### Quantitative variables
 
-A quantitative variable is one that can take numerical values. The
-variables in (a) and (b), above, are examples of quantitative variables.
-Quantitative variables may be characterized further as to whether they
+A quantitative variable is one that can take numerical values. The variables like  family size, number of hospital beds, number of schools in a country, height, mass, blood pressure, temperature, blood glucose level, etc. are examples of quantitative variables. Quantitative variables may be characterized further as to whether they
 are discrete or continuous
 
-**Discrete variables**
+### Discrete variables  
 
-The variables in (a), above, can be counted. These are examples of
-discrete variables. Variables that can only take on a finite number of
-values are called \"discrete variables.\" Any variable phrased as "the
-number of ...", is discrete, because it is possible to list its possible
-values {0,1, ...}. Any variable with a finite number of possible values
-is discrete. The following example illustrates the point. The number of
-daily admissions to a hospital is a discrete variable since it can be
-represented by a whole number, such as 0, 1, 2 or 3. The number of daily
+The variables like family size, number of hospital beds, number of schools in a country, etc. can be counted. These are examples of discrete variables. Variables that can only take on a finite number of values are called \"discrete variables.\" Any variable phrased as "the number of ...", is discrete, because it is possible to list its possible
+values {0,1, ...}. Any variable with a finite number of possible values is discrete. The following example illustrates the point. The number of daily admissions to a hospital is a discrete variable since it can be represented by a whole number, such as 0, 1, 2 or 3. The number of daily
 admissions on a given day cannot be a number such as 1.8, 3.96 or 5.33.
 
-**Continuous variables**
+### Continuous variables  
 
-The variables in (b), above, can be measured. These are examples of
-continuous variables. A continuous variable does not possess the gaps or
-interruptions characteristic of a discrete variable. A continuous
-variable can assume any value within a specific relevant interval of
-values assumed by the variable. Notice that age is continuous since an
-individual does not age in discrete jumps. Weight can be measured as
-35.5, 35.8 kg etc so, it is a continuous variable.
+The variables like height, mass, blood pressure, temperature, blood glucose level, etc. can be measured. These are examples of continuous variables. A continuous variable does not possess the gaps or interruptions characteristic of a discrete variable. A continuous
+variable can assume any value within a specific relevant interval of values assumed by the variable. Notice that age is continuous since an individual does not age in discrete jumps. Weight can be measured as 35.5, 35.8 kg etc so, it is a continuous variable.
 
-**Categorical variables**
+### Categorical variables  
 
-A variable is called categorical when the measurement scale is a set of
-categories. For example, marital status, with categories (single,
-married, widowed), is categorical. Whether employed (yes, no), religious
-affiliation (Protestant, Catholic, Jewish, Muslim, others, none),
-colours etc. Categorical variables are often called qualitative. It can
-be seen that categorical variables can neither be measured nor counted.
+A variable is called categorical when the measurement scale is a set of categories. For example, marital status, with categories (single,married, widowed), is categorical. Whether employed (yes, no), religious affiliation (Protestant, Catholic, Jewish, Muslim, others, none),
+colours etc. Categorical variables are often called qualitative. It can be seen that categorical variables can neither be measured nor counted.
 
-**[Levels of measurement and measurement scales]{.ul}**
+## Measurement scales  
 
-Variables can further be classified according to the following four
-levels of measurement: nominal, ordinal, interval and ratio.
+Variables can further be classified according to the following four levels of measurement: nominal, ordinal, interval and ratio.
 
-**Nominal scale:** This scale of measure applies to qualitative
-variables only. On the nominal scale, no order is required. For example,
-gender is nominal, blood group is nominal, and marital status is also
-nominal. We cannot perform arithmetic operations on data measured on the
-nominal scale.
+### Nominal scale  
+This scale of measure applies to qualitative variables only. On the nominal scale, no order is required. For example,gender is nominal, blood group is nominal, and marital status is also nominal. We cannot perform arithmetic operations on data measured on the nominal scale.  
 
-**Ordinal scale:** This scale also applies to qualitative data. On the
-ordinal scale, order is necessary. This means that one category is lower
-than the next one or vice versa. For example, Grades are ordinal, as
-excellent is higher than very good, which in turn is higher than good,
-and so on. It should be noted that, in the ordinal scale, differences
-between category values have no meaning.
+### Ordinal scale  
+This scale also applies to qualitative data. On the
+ordinal scale, order is necessary. This means that one category is lower than the next one or vice versa. For example, Grades are ordinal, as excellent is higher than very good, which in turn is higher than good, and so on. It should be noted that, in the ordinal scale, differences between category values have no meaning.
 
-**Interval scale:** This scale of measurement applies to quantitative
-data only. In this scale, the zero point does not indicate a total
-absence of the quantity being measured. An example of such a scale is
-temperature on the Celsius or Fahrenheit scale. Suppose the minimum
-temperatures of 3 cities, A, B and C, on a particular day were 0^0^C,
-20^0^C and 10^0^C, respectively. It is clear that we can find the
-differences between these temperatures. For example, city B is 20^0^C
-hotter than city A. However, we cannot say that city A has no
-temperature. Moreover, we cannot say that city B is twice as hot as city
-C, just because city B is 20^0^C and city C is 10^0^C. The reason is
-that, in the interval scale, the ratio between two numbers is not
-meaningful.
+### Interval scale  
+This scale of measurement applies to quantitative
+data only. In this scale, the zero point does not indicate a total absence of the quantity being measured. An example of such a scale is temperature on the Celsius or Fahrenheit scale. Suppose the minimum temperatures of 3 cities, A, B and C, on a particular day were 0^0^C, 20^0^C and 10^0^C, respectively. It is clear that we can find the differences between these temperatures. For example, city B is 20^0^C hotter than city A. However, we cannot say that city A has no temperature. Moreover, we cannot say that city B is twice as hot as city C, just because city B is 20^0^C and city C is 10^0^C. The reason is that, in the interval scale, the ratio between two numbers is not meaningful.
 
-**Ratio scale:** This scale of measurement also applies to quantitative
-data only and has all the properties of the interval scale. In addition
-to these properties, the ratio scale has a meaningful zero starting
-point and a meaningful ratio between 2 numbers. An example of variables
-measured on the ratio scale, is weight. A weighing scale that reads 0 kg
-gives an indication that there is absolutely no weight on it. So the
-zero starting point is meaningful. If Ram weighs 40 kg and Laxman weighs
-20 kg, then Ram weighs twice as Laxman. Another example of a variable
-measured on the ratio scale is temperature measured on the Kelvin scale.
-This has a true zero point.
+### Ratio scale  
+This scale of measurement also applies to quantitative
+data only and has all the properties of the interval scale. In addition to these properties, the ratio scale has a meaningful zero starting point and a meaningful ratio between 2 numbers. An example of variables measured on the ratio scale, is weight. A weighing scale that reads 0 kg
+gives an indication that there is absolutely no weight on it. So the zero starting point is meaningful. If Ram weighs 40 kg and Laxman weighs 20 kg, then Ram weighs twice as Laxman. Another example of a variable measured on the ratio scale is temperature measured on the Kelvin scale. This has a true zero point.
 
-![Capture.JPG](media\image2.jpeg){width="5.546783683289589in"
-height="2.3307086614173227in"}
+```{r variables, echo=FALSE,fig.cap='Classification of variables',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image2.jpeg"))
+```
+
 
 **[Collection of Data]{.ul}**
 

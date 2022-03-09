@@ -1,4 +1,5 @@
 fig:scotland
+fig:variables
 lecture-01
 origin-of-the-word-statistics
 statistics-and-mathematics
@@ -11,6 +12,16 @@ sample
 variables-and-constants
 variables
 constants
+types-of-variables
+quantitative-variables
+discrete-variables
+continuous-variables
+categorical-variables
+measurement-scales
+nominal-scale
+ordinal-scale
+interval-scale
+ratio-scale
 step-1.-decide-how-many-classes-you-wish-to-use.
 section
 step-2.-determine-the-class-width
