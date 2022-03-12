@@ -179,5 +179,7 @@ knitr::include_graphics(rep("images/image17.jpeg"))
 ```  
 
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
+
+_"Statistics is the grammar of science." - Karl Pearson_
+
 
