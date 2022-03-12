@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.7 Variables and constants | LECTURE NOTES OF STAT 3202</title>
+  <title>1.17 Construction of frequency distribution table | LECTURE NOTES OF STAT 3202</title>
   <meta name="description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta property="og:title" content="1.17 Construction of frequency distribution table | LECTURE NOTES OF STAT 3202" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/coverpage.PNG" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="https://github.com/pratheesh3780/lecture_notes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta name="twitter:title" content="1.17 Construction of frequency distribution table | LECTURE NOTES OF STAT 3202" />
   
   <meta name="twitter:description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="twitter:image" content="/images/coverpage.PNG" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="population-and-sample.html"/>
-<link rel="next" href="types-of-variables.html"/>
+<link rel="prev" href="terms-used-in-grouped-frequency-tables..html"/>
+<link rel="next" href="cumulative-frequency.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -176,35 +176,87 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="variables-and-constants" class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Variables and constants</h2>
-<div id="variables" class="section level3" number="1.7.1">
-<h3><span class="header-section-number">1.7.1</span> Variables</h3>
-<p style="text-align: justify;">
-<p>Any type of observation which can take different values for different people, or different values at different times, or places, is called a variable. The following are examples of variables:</p>
-<ul>
-<li><p>family size, number of hospital beds, number of schools in a country, etc.</p></li>
-<li><p>height, mass, blood pressure, temperature, blood glucose level, etc.</p>
-</p></li>
-</ul>
-<p style="text-align: justify;">
-Broadly speaking, there are two types of variables – <strong>quantitative</strong> and <strong>qualitative</strong> (or categorical) variables
-</p>
-</div>
-<div id="constants" class="section level3" number="1.7.2">
-<h3><span class="header-section-number">1.7.2</span> Constants</h3>
-<p style="text-align: justify;">
-Constants are characteristics that have values that do not change. Examples of constants are: pi (𝝅) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...) and <em>e</em>, the base of the natural or (Napierian) logarithms (<em>e</em>=2.71828).
-</p>
-</div>
+<div id="construction-of-frequency-distribution-table" class="section level2" number="1.17">
+<h2><span class="header-section-number">1.17</span> Construction of frequency distribution table</h2>
+<p><strong>Step 1</strong>. Decide how many classes you wish to use.<br />
+<strong>Step 2</strong>. Determine the class width<br />
+<strong>Step 3</strong>. Set up the individual class limits
+<strong>Step 4</strong>. Tally the items into the classes<br />
+<strong>Step 5</strong>. Count the number of items in each class</p>
+<p>Consider the example<br />
+An agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows<br />
+9,16,13,7,8,4,18,10,17,18,9,12,5,9,9,16,1,8,17,1,10,5,9,11,15,6,14,9,1,12,5,16,4,16,8,15,14,17</p>
+<p><strong>Step 1.</strong> Decide how many classes you wish to use.</p>
+<p>H.A. Sturges provides a formula for determining the approximation number
+of classes. <span class="math inline">\(\mathbf{k = 1 + 3.322}\mathbf{\log}\mathbf{N}\)</span><strong>.</strong> Number
+of classes should be greater than calculated <em>k</em></p>
+<p>In our example <em>N</em>=38, so <em>k</em>=1+3.322×log(38) = 1+3.322×1.5797 = 6.24 =
+approx 7</p>
+<p>So the approximated number of classes should be not less than 6.24
+<em>i</em>.<em>e</em>.<span class="math inline">\(\ k^{&#39;}\)</span> =7</p>
+<p><strong>Step 2.</strong> Determine the class width</p>
+<p>Generally, the class width should be the same size for all classes. <em>C</em>
+= | max − min|/ k</p>
+<p>Class width <span class="math inline">\(C^{&#39;}\)</span>should be greater than calculated <em>C</em></p>
+<p>For this example, <em>C</em> = | 18− 1|/<strong>6.24</strong> = 2.72, so approximately
+class width<span class="math inline">\(C^{&#39;} =\)</span> 3 (Note that <em>k</em> used here is the calculated value
+using Struges formula not the approximated)</p>
+<p><strong>Step 3.</strong> Set up the individual class limits</p>
+<p>We need to find the lower limit only</p>
+<p><span class="math display">\[L = min - \frac{C^{&#39;} \times k^{&#39;} - (max - min)}{2}\]</span></p>
+<p>where C and <em>k</em> here are final approximated class width and number of
+classes respectively</p>
+<p>in our example <span class="math inline">\(L = 1 - \frac{3 \times 7 - (18 - 1)}{2}\)</span>=1-2=-1; since
+there is no negative values in data = 0</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Class</th>
+<th align="left">Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">0-3</td>
+<td align="left">3</td>
+</tr>
+<tr class="even">
+<td align="left">3-6</td>
+<td align="left">5</td>
+</tr>
+<tr class="odd">
+<td align="left">6-9</td>
+<td align="left">5</td>
+</tr>
+<tr class="even">
+<td align="left">9-12</td>
+<td align="left">9</td>
+</tr>
+<tr class="odd">
+<td align="left">12-15</td>
+<td align="left">5</td>
+</tr>
+<tr class="even">
+<td align="left">15-18</td>
+<td align="left">9</td>
+</tr>
+<tr class="odd">
+<td align="left">18-21</td>
+<td align="left">2</td>
+</tr>
+</tbody>
+</table>
+<p>Even though the student only measured in whole numbers, the data is
+continuous, so "4 cm" means the actual value could have been anywhere
+from 3.5 cm to 4.5 cm.</p>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="population-and-sample.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="types-of-variables.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="terms-used-in-grouped-frequency-tables..html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cumulative-frequency.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

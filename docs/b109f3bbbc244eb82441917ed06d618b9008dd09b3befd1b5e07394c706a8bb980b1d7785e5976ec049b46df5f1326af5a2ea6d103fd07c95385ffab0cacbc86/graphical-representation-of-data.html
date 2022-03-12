@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.7 Variables and constants | LECTURE NOTES OF STAT 3202</title>
+  <title>Chapter 2 Graphical representation of data | LECTURE NOTES OF STAT 3202</title>
   <meta name="description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta property="og:title" content="Chapter 2 Graphical representation of data | LECTURE NOTES OF STAT 3202" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/coverpage.PNG" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="https://github.com/pratheesh3780/lecture_notes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta name="twitter:title" content="Chapter 2 Graphical representation of data | LECTURE NOTES OF STAT 3202" />
   
   <meta name="twitter:description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="twitter:image" content="/images/coverpage.PNG" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="population-and-sample.html"/>
-<link rel="next" href="types-of-variables.html"/>
+<link rel="prev" href="relative-frequency.html"/>
+
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -176,35 +176,363 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="variables-and-constants" class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Variables and constants</h2>
-<div id="variables" class="section level3" number="1.7.1">
-<h3><span class="header-section-number">1.7.1</span> Variables</h3>
-<p style="text-align: justify;">
-<p>Any type of observation which can take different values for different people, or different values at different times, or places, is called a variable. The following are examples of variables:</p>
+<div id="graphical-representation-of-data" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Graphical representation of data</h1>
+<p>We found that information given in a frequency distribution is easier to
+interpret than raw data. Information given in a frequency distribution
+in a tabular form is easier to grasp if presented graphically. Many
+types of diagrams are used in statistics, depending on the nature of the
+data and the purpose for which the diagram is intended.</p>
+<p><strong><u>Histogram</u></strong></p>
+<p>A histogram consists of rectangles with:</p>
 <ul>
-<li><p>family size, number of hospital beds, number of schools in a country, etc.</p></li>
-<li><p>height, mass, blood pressure, temperature, blood glucose level, etc.</p>
-</p></li>
+<li><p>Bases on a horizontal axis, centres at the class marks, and lengths
+equal to the class widths,</p></li>
+<li><p>Areas proportional to class frequencies.</p></li>
 </ul>
-<p style="text-align: justify;">
-Broadly speaking, there are two types of variables – <strong>quantitative</strong> and <strong>qualitative</strong> (or categorical) variables
-</p>
+<p>Note: If the class intervals are of equal size, then the heights of the
+rectangles are proportional to the class frequencies and it is then
+customary to take the heights of the rectangles numerically equal to the
+class frequencies. If the class intervals are of different widths, then
+the heights of the rectangles are proportional
+to<span class="math inline">\(\frac{\text{Class\ Frequency}}{\text{Class\ Width}}\)</span>. This ratio is
+called frequency density.</p>
+<p>Table below shows the frequency distribution of the body masses of 50
+AIDS patients. Draw a Histogram.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Mass</th>
+<th align="left">30 – 39</th>
+<th align="left">40 – 49</th>
+<th align="left">50 – 59</th>
+<th align="left">60 – 69</th>
+<th align="left">70 – 79</th>
+<th align="left">80 – 89</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Frequency</td>
+<td align="left">3</td>
+<td align="left">6</td>
+<td align="left">17</td>
+<td align="left">13</td>
+<td align="left">8</td>
+<td align="left">3</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image8.png" style="width:3.85217in;height:2.43825in" alt="" />
+<p class="caption">meta-chart (1).png</p>
 </div>
-<div id="constants" class="section level3" number="1.7.2">
-<h3><span class="header-section-number">1.7.2</span> Constants</h3>
-<p style="text-align: justify;">
-Constants are characteristics that have values that do not change. Examples of constants are: pi (𝝅) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...) and <em>e</em>, the base of the natural or (Napierian) logarithms (<em>e</em>=2.71828).
-</p>
+<p><strong>Cumulative frequency curve</strong> <strong>(Ogive)</strong></p>
+<p>A graph obtained by plotting a cumulative frequency against the class
+boundary and joining the points by a smooth curve, is called a
+cumulative frequency curve. It is also called as Ogive. Two types of
+ogive are there, Less Than Type Cumulative Frequency Curve (Less than
+Ogive) and Greater Than Type Cumulative Frequency Curve (Greater than
+Ogive).</p>
+<p><strong>Less Than Type Cumulative Frequency Curve (Less than Ogive):</strong> Here we
+use the upper limit of the classes and the less than cumulative
+frequency to plot the curve. Let us see for the example of the body
+masses of 50 AIDS patients.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Upper limit</th>
+<th align="left">39</th>
+<th align="left">49</th>
+<th align="left">59</th>
+<th align="left">69</th>
+<th align="left">79</th>
+<th align="left">89</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Less than Cumulative frequency</td>
+<td align="left">3</td>
+<td align="left">9</td>
+<td align="left">26</td>
+<td align="left">39</td>
+<td align="left">47</td>
+<td align="left">50</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image9.jpeg" style="width:3.24004in;height:1.94402in" alt="" />
+<p class="caption">fdgd.JPG</p>
+</div>
+<p><strong>Greater Than Type Cumulative Frequency Curve (Greater than Ogive)</strong>.
+Here we use the lower limit of the classes and the Greater than
+cumulative frequency to plot the curve.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Lower Limit</th>
+<th align="left">30</th>
+<th align="left">40</th>
+<th align="left">50</th>
+<th align="left">60</th>
+<th align="left">70</th>
+<th align="left">80</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Greater than Cumulative frequency</td>
+<td align="left">50</td>
+<td align="left">47</td>
+<td align="left">41</td>
+<td align="left">24</td>
+<td align="left">11</td>
+<td align="left">3</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image10.jpeg" style="width:3.35176in;height:1.96522in" alt="" />
+<p class="caption">fdgd.JPG</p>
+</div>
+<p>Intersection of both ogives gives the median</p>
+<p><strong>Frequency polygon</strong></p>
+<p>A grouped frequency table can also be represented by a frequency
+polygon, which is a special kind of line graph. To construct a frequency
+polygon, we plot a graph of class frequencies against the corresponding
+class mid-points and join successive points with straight lines.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Class Midpoints</th>
+<th align="left">34.5</th>
+<th align="left">44.5</th>
+<th align="left">54.5</th>
+<th align="left">64.5</th>
+<th align="left">74.5</th>
+<th align="left">84.5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Frequencies</td>
+<td align="left">3</td>
+<td align="left">6</td>
+<td align="left">17</td>
+<td align="left">13</td>
+<td align="left">8</td>
+<td align="left">3</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image11.jpeg" style="width:4.30897in;height:2.5913in" alt="" />
+<p class="caption">fdgd.JPG</p>
+</div>
+<p>Frequency polygon is also obtained by joining the midpoints of a
+histogram as shown below</p>
+<div class="figure">
+<img src="media\image12.png" style="width:2.82609in;height:1.78688in" alt="" />
+<p class="caption">meta-chart (1).png</p>
+</div>
+<p><strong>Stem-and-leaf plot</strong></p>
+<p>A stem-and-leaf plot is a graphical device that is useful for
+representing a relatively small set of data which takes numerical
+values. To construct a stem-and-leaf plot, we partition each measurement
+into two parts. The first part is called the stem, and the second part
+is called the leaf. Here each numerical value is divided into two parts:
+The leading digits become the stem the trailing digits become the leaf.
+One advantage of the stem-and-leaf display over a frequency distribution
+is that we retain the value of each observation. Another is the
+distribution of the data within each groups is clear.</p>
+<p>A stem-and-leaf plot conveys similar information as a histogram. Turned
+on its side, it has the same shape as the histogram. In fact, since the
+stem-and-leaf plot shows each observation,</p>
+<p>it displays information that is lost in a histogram. A properly
+constructed stem-and-leaf plot, like a histogram, provides information
+regarding the range of the data set, shows the location of the highest
+concentration of measurements, and reveals the presence or absence of
+symmetry.</p>
+<p>Consider the example</p>
+<p>10,15,22,25,28,23,29,31,36,45,48</p>
+<p>Stem and leaf plot will look like</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1</th>
+<th align="left">0 5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">2 3 5 8 9</td>
+</tr>
+<tr class="even">
+<td align="left">3</td>
+<td align="left">1 6</td>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="left">5 8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bar chart</strong></p>
+<p>A bar chart is a diagram consisting of a series of horizontal or
+vertical bars of equal width. The bars represent various categories of
+the data. There are three types of bar charts, and these are simple bar
+charts, component bar charts and grouped bar charts.</p>
+<p><strong>(i) Simple bar chart</strong></p>
+<p>In a simple bar chart, the height (or length) of each bar is equal to
+the frequency it represents. For example data below shows the production
+of timber in five districts of kerala in a certain year.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Alappuzha</th>
+<th align="left">600</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kannur</td>
+<td align="left">900</td>
+</tr>
+<tr class="even">
+<td align="left">Trissur</td>
+<td align="left">1800</td>
+</tr>
+<tr class="odd">
+<td align="left">Ernakulam</td>
+<td align="left">1500</td>
+</tr>
+<tr class="even">
+<td align="left">Wayanad</td>
+<td align="left">2400</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image13.png" style="width:2.46957in;height:1.55769in" alt="" />
+<p class="caption">meta-chart (1).png</p>
+</div>
+<p><strong>Component bar chart</strong></p>
+<p>In a component bar chart, the bar for each category is subdivided into
+component parts; hence its name. Component bar charts are therefore used
+to show the division of items into components. This is illustrated in
+the following example.</p>
+<p>Example shows the distribution of sales of agricultural produce from a
+Farm in 1995, 1996 and 1997.</p>
+<div class="figure">
+<img src="media\image14.jpeg" style="width:2.99656in;height:1.58431in" alt="" />
+<p class="caption">Capture.JPG</p>
+</div>
+<div class="figure">
+<img src="media\image15.jpeg" style="width:3.7417in;height:2.10435in" alt="" />
+<p class="caption">hgh.JPG</p>
+</div>
+<p>The component bar chart shows the changes of each component over the
+years as well as the comparison of the total sales between different
+years.</p>
+<p><strong>Grouped bar chart</strong></p>
+<p>For a grouped bar chart, the components are grouped together and drawn
+side by side. We illustrate this with the above example.</p>
+<div class="figure">
+<img src="media\image16.jpeg" style="width:5.10937in;height:2.3913in" alt="" />
+<p class="caption">dfgdg.JPG</p>
+</div>
+<p><strong>Pie Charts</strong></p>
+<p>A pie chart is a circular graph divided into sectors, each sector
+representing a different value or category. The angle of each sector of
+a pie chart is proportional to the value of the part of the data it
+represents. The bar chart is more precise than the pie chart for visual
+comparison of categories with similar relative frequencies.</p>
+<p><u>Steps for constructing a pie chart</u></p>
+<p>(1) Find the sum of the category values.</p>
+<p>(2) Calculate the angle of the sector for each category, using the
+following formula</p>
+<p>Angle of the sector for category A =
+<span class="math inline">\(\frac{\text{value\ of\ category\ A}}{\text{sum\ of\ category\ values}} \times 360\)</span></p>
+<p>(3) Construct a circle and mark the centre.</p>
+<p>(4) Use a protractor to divide the circle into sectors, using the
+angles obtained in step 2.</p>
+<p>(5) Label each sector clearly.</p>
+<p>See the example:</p>
+<p>A housewife spent the following sums of money on buying ingredients for
+a family Christmas cake.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Ingredients</th>
+<th align="left">Price</th>
+<th align="left">Angle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Flour</td>
+<td align="left">24</td>
+<td align="left">(24/240)×360= 36</td>
+</tr>
+<tr class="even">
+<td align="left">Margarine</td>
+<td align="left">96</td>
+<td align="left">144</td>
+</tr>
+<tr class="odd">
+<td align="left">Sugar</td>
+<td align="left">18</td>
+<td align="left">27</td>
+</tr>
+<tr class="even">
+<td align="left">Eggs</td>
+<td align="left">60</td>
+<td align="left">90</td>
+</tr>
+<tr class="odd">
+<td align="left">Baking powder</td>
+<td align="left">12</td>
+<td align="left">18</td>
+</tr>
+<tr class="even">
+<td align="left">Miscellaneous</td>
+<td align="left">30</td>
+<td align="left">45</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Total</strong></td>
+<td align="left"><strong>240</strong></td>
+<td align="left"><strong>360</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="media\image17.jpeg" style="width:3.84004in;height:2.40971in" alt="" />
+<p class="caption">hhhh.JPG</p>
+</div>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Ball, Philip. 2004. <em>Critical Mass</em>. Farrar, Straus; Giroux.
 </div>
 </div>
+</div>
+
+
+
+
+
+
             </section>
 
           </div>
         </div>
       </div>
-<a href="population-and-sample.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="types-of-variables.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="relative-frequency.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -235,7 +563,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/pratheesh3780/lecture_notes/edit/master/01-lecture01.rmd",
+"link": "https://github.com/pratheesh3780/lecture_notes/edit/master/02-lecture02.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -243,7 +571,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/pratheesh3780/lecture_notes/blob/master/01-lecture01.rmd",
+"link": "https://github.com/pratheesh3780/lecture_notes/blob/master/02-lecture02.Rmd",
 "text": null
 },
 "download": null,

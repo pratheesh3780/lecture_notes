@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.7 Variables and constants | LECTURE NOTES OF STAT 3202</title>
+  <title>1.9 Measurement scales | LECTURE NOTES OF STAT 3202</title>
   <meta name="description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta property="og:title" content="1.9 Measurement scales | LECTURE NOTES OF STAT 3202" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/coverpage.PNG" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="https://github.com/pratheesh3780/lecture_notes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.7 Variables and constants | LECTURE NOTES OF STAT 3202" />
+  <meta name="twitter:title" content="1.9 Measurement scales | LECTURE NOTES OF STAT 3202" />
   
   <meta name="twitter:description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="twitter:image" content="/images/coverpage.PNG" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="population-and-sample.html"/>
-<link rel="next" href="types-of-variables.html"/>
+<link rel="prev" href="types-of-variables.html"/>
+<link rel="next" href="collection-of-data.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -176,26 +176,34 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="variables-and-constants" class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Variables and constants</h2>
-<div id="variables" class="section level3" number="1.7.1">
-<h3><span class="header-section-number">1.7.1</span> Variables</h3>
-<p style="text-align: justify;">
-<p>Any type of observation which can take different values for different people, or different values at different times, or places, is called a variable. The following are examples of variables:</p>
-<ul>
-<li><p>family size, number of hospital beds, number of schools in a country, etc.</p></li>
-<li><p>height, mass, blood pressure, temperature, blood glucose level, etc.</p>
-</p></li>
-</ul>
-<p style="text-align: justify;">
-Broadly speaking, there are two types of variables – <strong>quantitative</strong> and <strong>qualitative</strong> (or categorical) variables
+<div id="measurement-scales" class="section level2" number="1.9">
+<h2><span class="header-section-number">1.9</span> Measurement scales</h2>
+<p>Variables can further be classified according to the following four levels of measurement: nominal, ordinal, interval and ratio.</p>
+<div id="nominal-scale" class="section level3" number="1.9.1">
+<h3><span class="header-section-number">1.9.1</span> Nominal scale</h3>
+<p>This scale of measure applies to qualitative variables only. On the nominal scale, no order is required. For example,gender is nominal, blood group is nominal, and marital status is also nominal. We cannot perform arithmetic operations on data measured on the nominal scale.</p>
+</div>
+<div id="ordinal-scale" class="section level3" number="1.9.2">
+<h3><span class="header-section-number">1.9.2</span> Ordinal scale</h3>
+<p>This scale also applies to qualitative data. On the
+ordinal scale, order is necessary. This means that one category is lower than the next one or vice versa. For example, Grades are ordinal, as excellent is higher than very good, which in turn is higher than good, and so on. It should be noted that, in the ordinal scale, differences between category values have no meaning.</p>
+</div>
+<div id="interval-scale" class="section level3" number="1.9.3">
+<h3><span class="header-section-number">1.9.3</span> Interval scale</h3>
+<p>This scale of measurement applies to quantitative
+data only. In this scale, the zero point does not indicate a total absence of the quantity being measured. An example of such a scale is temperature on the Celsius or Fahrenheit scale. Suppose the minimum temperatures of 3 cities, A, B and C, on a particular day were 0<sup>0</sup>C, 20<sup>0</sup>C and 10<sup>0</sup>C, respectively. It is clear that we can find the differences between these temperatures. For example, city B is 20<sup>0</sup>C hotter than city A. However, we cannot say that city A has no temperature. Moreover, we cannot say that city B is twice as hot as city C, just because city B is 20<sup>0</sup>C and city C is 10<sup>0</sup>C. The reason is that, in the interval scale, the ratio between two numbers is not meaningful.</p>
+</div>
+<div id="ratio-scale" class="section level3" number="1.9.4">
+<h3><span class="header-section-number">1.9.4</span> Ratio scale</h3>
+<p>This scale of measurement also applies to quantitative
+data only and has all the properties of the interval scale. In addition to these properties, the ratio scale has a meaningful zero starting point and a meaningful ratio between 2 numbers. An example of variables measured on the ratio scale, is weight. A weighing scale that reads 0 kg
+gives an indication that there is absolutely no weight on it. So the zero starting point is meaningful. If Ram weighs 40 kg and Laxman weighs 20 kg, then Ram weighs twice as Laxman. Another example of a variable measured on the ratio scale is temperature measured on the Kelvin scale. This has a true zero point.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:variables"></span>
+<img src="images/image2.jpeg" alt="Classification of variables" width="366" />
+<p class="caption">
+Figure 1.2: Classification of variables
 </p>
 </div>
-<div id="constants" class="section level3" number="1.7.2">
-<h3><span class="header-section-number">1.7.2</span> Constants</h3>
-<p style="text-align: justify;">
-Constants are characteristics that have values that do not change. Examples of constants are: pi (𝝅) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...) and <em>e</em>, the base of the natural or (Napierian) logarithms (<em>e</em>=2.71828).
-</p>
 </div>
 </div>
             </section>
@@ -203,8 +211,8 @@ Constants are characteristics that have values that do not change. Examples of c
           </div>
         </div>
       </div>
-<a href="population-and-sample.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="types-of-variables.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="types-of-variables.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="collection-of-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

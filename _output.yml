@@ -1,8 +1,19 @@
-bookdown::gitbook:
-  css: style.css
+bookdown::gitbook: 
+  dev: svglite  
+  css: custom.css  
+  split_by: section
   config:
-    toc:
+    toc: 
+      collapse: none  
       before: |
         <li><a href="./">LECTURE NOTES</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+  
+edit : null
+sharing:
+      facebook: false
+      github: false
+      twitter: false
+
+

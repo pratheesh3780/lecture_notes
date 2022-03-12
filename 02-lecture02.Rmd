@@ -1,0 +1,216 @@
+# Graphical representation of data
+
+We found that information given in a frequency distribution is easier to
+interpret than raw data. Information given in a frequency distribution
+in a tabular form is easier to grasp if presented graphically. Many
+types of diagrams are used in statistics, depending on the nature of the
+data and the purpose for which the diagram is intended.
+
+**[Histogram]{.ul}**
+
+A histogram consists of rectangles with:
+
+-   Bases on a horizontal axis, centres at the class marks, and lengths
+    equal to the class widths,
+
+-   Areas proportional to class frequencies.
+
+Note: If the class intervals are of equal size, then the heights of the
+rectangles are proportional to the class frequencies and it is then
+customary to take the heights of the rectangles numerically equal to the
+class frequencies. If the class intervals are of different widths, then
+the heights of the rectangles are proportional
+to$\frac{\text{Class\ Frequency}}{\text{Class\ Width}}$. This ratio is
+called frequency density.
+
+Table below shows the frequency distribution of the body masses of 50
+AIDS patients. Draw a Histogram.
+
+  Mass        30 -- 39   40 -- 49   50 -- 59   60 -- 69   70 -- 79   80 -- 89
+  ----------- ---------- ---------- ---------- ---------- ---------- ----------
+  Frequency   3          6          17         13         8          3
+
+![meta-chart (1).png](media\image8.png){width="3.8521741032370955in"
+height="2.4382502187226596in"}
+
+**Cumulative frequency curve** **(Ogive)**
+
+A graph obtained by plotting a cumulative frequency against the class
+boundary and joining the points by a smooth curve, is called a
+cumulative frequency curve. It is also called as Ogive. Two types of
+ogive are there, Less Than Type Cumulative Frequency Curve (Less than
+Ogive) and Greater Than Type Cumulative Frequency Curve (Greater than
+Ogive).
+
+**Less Than Type Cumulative Frequency Curve (Less than Ogive):** Here we
+use the upper limit of the classes and the less than cumulative
+frequency to plot the curve. Let us see for the example of the body
+masses of 50 AIDS patients.
+
+  Upper limit                      39   49   59   69   79   89
+  -------------------------------- ---- ---- ---- ---- ---- ----
+  Less than Cumulative frequency   3    9    26   39   47   50
+
+![fdgd.JPG](media\image9.jpeg){width="3.240036089238845in"
+height="1.9440234033245845in"}
+
+**Greater Than Type Cumulative Frequency Curve (Greater than Ogive)**.
+Here we use the lower limit of the classes and the Greater than
+cumulative frequency to plot the curve.
+
+  Lower Limit                         30   40   50   60   70   80
+  ----------------------------------- ---- ---- ---- ---- ---- ----
+  Greater than Cumulative frequency   50   47   41   24   11   3
+
+![fdgd.JPG](media\image10.jpeg){width="3.3517596237970255in"
+height="1.9652176290463692in"}
+
+Intersection of both ogives gives the median
+
+**Frequency polygon**
+
+A grouped frequency table can also be represented by a frequency
+polygon, which is a special kind of line graph. To construct a frequency
+polygon, we plot a graph of class frequencies against the corresponding
+class mid-points and join successive points with straight lines.
+
+  Class Midpoints   34.5   44.5   54.5   64.5   74.5   84.5
+  ----------------- ------ ------ ------ ------ ------ ------
+  Frequencies       3      6      17     13     8      3
+
+![fdgd.JPG](media\image11.jpeg){width="4.308968722659667in"
+height="2.591304680664917in"}
+
+Frequency polygon is also obtained by joining the midpoints of a
+histogram as shown below
+
+![meta-chart (1).png](media\image12.png){width="2.826087051618548in"
+height="1.7868832020997376in"}
+
+**Stem-and-leaf plot**
+
+A stem-and-leaf plot is a graphical device that is useful for
+representing a relatively small set of data which takes numerical
+values. To construct a stem-and-leaf plot, we partition each measurement
+into two parts. The first part is called the stem, and the second part
+is called the leaf. Here each numerical value is divided into two parts:
+The leading digits become the stem the trailing digits become the leaf.
+One advantage of the stem-and-leaf display over a frequency distribution
+is that we retain the value of each observation. Another is the
+distribution of the data within each groups is clear.
+
+A stem-and-leaf plot conveys similar information as a histogram. Turned
+on its side, it has the same shape as the histogram. In fact, since the
+stem-and-leaf plot shows each observation,
+
+it displays information that is lost in a histogram. A properly
+constructed stem-and-leaf plot, like a histogram, provides information
+regarding the range of the data set, shows the location of the highest
+concentration of measurements, and reveals the presence or absence of
+symmetry.
+
+Consider the example
+
+10,15,22,25,28,23,29,31,36,45,48
+
+Stem and leaf plot will look like
+
+  1   0 5
+  --- -----------
+  2   2 3 5 8 9
+  3   1 6
+  4   5 8
+
+**Bar chart**
+
+A bar chart is a diagram consisting of a series of horizontal or
+vertical bars of equal width. The bars represent various categories of
+the data. There are three types of bar charts, and these are simple bar
+charts, component bar charts and grouped bar charts.
+
+**(i) Simple bar chart**
+
+In a simple bar chart, the height (or length) of each bar is equal to
+the frequency it represents. For example data below shows the production
+of timber in five districts of kerala in a certain year.
+
+  Alappuzha   600
+  ----------- ------
+  Kannur      900
+  Trissur     1800
+  Ernakulam   1500
+  Wayanad     2400
+
+![meta-chart (1).png](media\image13.png){width="2.46956583552056in"
+height="1.5576913823272092in"}
+
+**Component bar chart**
+
+In a component bar chart, the bar for each category is subdivided into
+component parts; hence its name. Component bar charts are therefore used
+to show the division of items into components. This is illustrated in
+the following example.
+
+Example shows the distribution of sales of agricultural produce from a
+Farm in 1995, 1996 and 1997.
+
+![Capture.JPG](media\image14.jpeg){width="2.9965583989501314in"
+height="1.5843055555555556in"}
+
+![hgh.JPG](media\image15.jpeg){width="3.74170384951881in"
+height="2.1043482064741905in"}
+
+The component bar chart shows the changes of each component over the
+years as well as the comparison of the total sales between different
+years.
+
+**Grouped bar chart**
+
+For a grouped bar chart, the components are grouped together and drawn
+side by side. We illustrate this with the above example.
+
+![dfgdg.JPG](media\image16.jpeg){width="5.109370078740158in"
+height="2.3913035870516186in"}
+
+**Pie Charts**
+
+A pie chart is a circular graph divided into sectors, each sector
+representing a different value or category. The angle of each sector of
+a pie chart is proportional to the value of the part of the data it
+represents. The bar chart is more precise than the pie chart for visual
+comparison of categories with similar relative frequencies.
+
+[Steps for constructing a pie chart]{.ul}
+
+\(1\) Find the sum of the category values.
+
+\(2\) Calculate the angle of the sector for each category, using the
+following formula
+
+Angle of the sector for category A =
+$\frac{\text{value\ of\ category\ A}}{\text{sum\ of\ category\ values}} \times 360$
+
+\(3\) Construct a circle and mark the centre.
+
+\(4\) Use a protractor to divide the circle into sectors, using the
+angles obtained in step 2.
+
+\(5\) Label each sector clearly.
+
+See the example:
+
+A housewife spent the following sums of money on buying ingredients for
+a family Christmas cake.
+
+  Ingredients     Price     Angle
+  --------------- --------- ------------------
+  Flour           24        (24/240)×360= 36
+  Margarine       96        144
+  Sugar           18        27
+  Eggs            60        90
+  Baking powder   12        18
+  Miscellaneous   30        45
+  **Total**       **240**   **360**
+
+![hhhh.JPG](media\image17.jpeg){width="3.840036089238845in"
+height="2.4097101924759405in"}

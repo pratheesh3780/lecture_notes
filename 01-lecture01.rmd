@@ -1,4 +1,5 @@
-# Lecture 01
+# Introduction  
+
 <p style="text-align: justify;">In this lecture we will have the introduction, which includes, definition of statistics, collection and classification of data, formation of frequency distribution.</p>  
 
 ## Origin of the word “Statistics”  
@@ -139,259 +140,146 @@ knitr::include_graphics(rep("images/image2.jpeg"))
 ```
 
 
-**[Collection of Data]{.ul}**
+## Collection of Data
 
-The first step in any enquiry (investigation) is the collection of data.
-The data may be collected for the whole population or for a sample only.
-It is mostly collected on a sample basis. Collecting data is very
-difficult job. The enumerator or investigator is the well trained
-individual who collects the statistical data. The respondents are the
-persons from whom the information is collected.
+The first step in any enquiry (investigation) is the collection of data. The data may be collected for the whole population or for a sample only. It is mostly collected on a sample basis. Collecting data is very difficult job. The enumerator or investigator is the well trained individual who collects the statistical data. The respondents are the persons from whom the information is collected.
 
-[Types of Data]{.ul}
+### Types of Data
 
 There are two types (sources) for the collection of data:
+* Primary Data  
+* Secondary Data
 
-\(1\) Primary Data (2) Secondary Data
+#### Primary Data
 
-**Primary Data**
+Primary data are the first hand information which is collected, compiled and published by organizations for some purpose. They are the most original data in character and have not undergone any sort of statistical treatment.   
 
-Primary data are the first hand information which is collected, compiled
-and published by organizations for some purpose. They are the most
-original data in character and have not undergone any sort of
-statistical treatment.
+Example: Population census reports are primary data because these are collected, complied and published by the population census organization.  
 
-Example: Population census reports are primary data because these are
-collected, complied and published by the population census organization.
+#### Secondary Data
 
-**Secondary Data**
+The secondary data are the second hand information which is already collected by an organization for some purpose and are available for the present study. Secondary data are not pure in character and have undergone some treatment at least once.  
 
-The secondary data are the second hand information which is already
-collected by an organization for some purpose and are available for the
-present study. Secondary data are not pure in character and have
-undergone some treatment at least once.
+Example: An economic survey of England is secondary data because the data are collected by more than one organization like the Bureau of Statistics, Board of Revenue, banks, etc.
 
-Example: An economic survey of England is secondary data because the
-data are collected by more than one organization like the Bureau of
-Statistics, Board of Revenue, banks, etc.
+## Methods of Collecting Primary Data
 
-**Methods of Collecting Primary Data**
+Primary data are collected using the following methods:  
 
-Primary data are collected using the following methods:
-
-**Personal Investigation**: The researcher conducts the survey
-him/herself and collects data from it. The data collected in this way
-are usually accurate and reliable. This method of collecting data is
+### Personal Investigation  
+The researcher conducts the survey him/herself and collects data from it. The data collected in this way are usually accurate and reliable. This method of collecting data is
 only applicable in case of small research projects.
 
-**Through Investigation**: Trained investigators are employed to collect
-the data. These investigators contact the individuals and fill in
-questionnaires after asking for the required information. Most
-organizations utilize this method.
+### Through Investigation  
+Trained investigators are employed to collect the data. These investigators contact the individuals and fill in
+questionnaires after asking for the required information. Most organizations utilize this method.  
 
-**Collection through Questionnaire**: Researchers get the data from
-local representations or agents that are based upon their own
-experience. This method is quick but gives only a rough estimate.
+### Collection through Questionnaire  
+Researchers get the data from local representations or agents that are based upon their own experience. This method is quick but gives only a rough estimate.  
 
-**Through the Telephone**: Researchers get information from individuals
-through the telephone. This method is quick and gives accurate
-information.
+### Through the Telephone  
+Researchers get information from individuals through the telephone. This method is quick and gives accurate information.
 
-**Methods of Collecting Secondary Data**
-
+## Methods of Collecting Secondary Data  
 Secondary data are collected by the following methods:
 
--   Official: e.g. publications from the Statistical Division, Ministry
-    of Finance, the Federal Bureaus of Statistics, Ministries of Food,
-    Agriculture, Industry, Labor, etc.
+### Official  
+Publications from the Statistical Division, Ministry of Finance, the Federal Bureaus of Statistics, Ministries of Food, Agriculture, Industry, Labor, etc.  
 
--   Semi-Official: e.g. State Bank, Railway Board, Central Cotton
-    Committee, Boards of Economic Enquiry, etc.
+### Semi-Official  
 
--   Publication of Trade Associations, Chambers of Commerce, etc.
+* Publications from State Bank, Railway Board, Central Cotton Committee, Boards of Economic Enquiry etc.  
+* Publication of Trade Associations, Chambers of Commerce, etc.  
+* Technical and Trade Journals and Newspapers.  
+* Research Organizations such as universities and other institutions.
 
--   Technical and Trade Journals and Newspapers.
+## Difference Between Primary and Secondary Data  
+The difference between primary and secondary data is only a change of hand. Primary data are the first hand information which is directly collected form one source. They are the most original in character and have not undergone any sort of statistical treatment, while secondary data are obtained from other sources or agencies. They are not pure in character and have undergone some treatment at least once.  
 
--   Research Organizations such as universities and other institutions.
+## Frequency distribution  
 
-[Difference Between Primary and Secondary Data]{.ul}
+Table shows the number of children per family for 54 families selected from a town in India. The data, presented in this form in which it was collected, is called raw data.  
+```{r raw, echo=FALSE,fig.cap='raw data set of No. of children in 54 families',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image3.jpeg"))
+```  
+It can be seen that, the minimum and the maximum numbers of children per family are 0 and 4, respectively. Apart from these numbers, it is impossible, without further careful study, to extract any exact information from the data. But by breaking down the data into the form below  
+```{r freq, echo=FALSE,fig.cap='Frequency distribution table',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image4.jpeg"))
+```  
+Now certain features of the data become apparent. For instance, it can easily be seen that, most of the 54 families selected have two children because number of houses having 2 children is 18. This information cannot easily be obtained from the raw data. The above table is called a frequency table or a frequency distribution. It is so called because it gives the frequency or number of times each
+observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.
 
-The difference between primary and secondary data is only a change of
-hand. Primary data are the first hand information which is directly
-collected form one source. They are the most original in character and
-have not undergone any sort of statistical treatment, while secondary
-data are obtained from other sources or agencies. They are not pure in
-character and have undergone some treatment at least once.
+### Construction of frequency distribution
 
-**[Frequency distribution]{.ul}**
+1.  List all values of the variable in ascending order of magnitude.  
 
-Table shows the number of children per family for 54 families selected
-from a town in India. The data, presented in this form in which it was
-collected, is called raw data.
+2.  Form a tally column, that is, for each value in the data, record a stroke in the tally column next to that value. In the tally, each fifth stroke is made across the first four. This makes it easy to count the entries and enter the frequency of each observation.  
 
-![hhgvhg.JPG](images\image3.jpeg){width="5.541666666666667in"
-height="0.7916666666666666in"}
+3.  Check that the frequencies sum to the total number of observations  
 
-It can be seen that, the minimum and the maximum numbers of children per
-family are 0 and 4, respectively. Apart from these numbers, it is
-impossible, without further careful study, to extract any exact
-information from the data. But by breaking down the data into the form
-below
+## Grouped frequency distribution  
+Data below gives the body masses of 22 patients, measured to the nearest kilogram.  
 
-![asda.JPG](media\image4.jpeg){width="4.95in"
-height="1.7666666666666666in"}
-
-Now certain features of the data become apparent. For instance, it can
-easily be seen that, most of the 54 families selected have two children
-because number of houses having 2 children is 18. This information
-cannot easily be obtained from the raw data.
-
-The above table is called a frequency table or a frequency distribution.
-It is so called because it gives the frequency or number of times each
-observation occurs. Thus, by finding the frequency of each observation,
-a more intelligible picture is obtained.
-
-The steps for constructing a frequency distribution may be summarized as
-follows:
-
-1.  List all values of the variable in ascending order of magnitude.
-
-2.  Form a tally column, that is, for each value in the data, record a
-    stroke in the tally column next to that value. In the tally, each
-    fifth stroke is made across the first four. This makes it easy to
-    count the entries and enter the frequency of each observation.
-
-3.  Check that the frequencies sum to the total number of observations
-
-**[Grouped frequency distribution]{.ul}**
-
-Data below gives the body masses of 22 patients, measured to the nearest
-kilogram.
-
-![sdf.JPG](media\image5.jpeg){width="4.55in"
-height="0.5416666666666666in"}
-
-It can be seen that the minimum and the maximum body masses are 42 kg
-and 83 kg, respectively. A frequency distribution giving every body mass
-between 42 kg and 83 kg would be very long and would not be very
-informative. The problem is to overcome by grouping the data into
-classes. If we choose the classes 41 -- 49, 50 -- 58, 59 -- 67, 68 -- 76
+```{r mass, echo=FALSE,fig.cap='Body masses of 22 patients',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image5.jpeg"))
+```  
+It can be seen that the minimum and the maximum body masses are 42 kg and 83 kg, respectively. A frequency distribution giving every body mass between 42 kg and 83 kg would be very long and would not be very informative. The problem is to overcome by grouping the data into classes.  
+If we choose the classes  
+41 -- 49  
+50 -- 58  
+59 -- 67  
+68 -- 76
 and 77 -- 85, we obtain the frequency distribution given below:
 
-![adsd.JPG](media\image6.jpeg){width="4.933333333333334in"
-height="1.7083333333333333in"}
+```{r grptable, echo=FALSE,fig.cap='Grouped Frequency distribution table',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image6.jpeg"))
+```  
+Above table gives the frequency of each group or class; it is therefore called a grouped frequency table or a grouped frequency distribution. Using this grouped frequency distribution, it is easier to obtain information about the data than using the raw data. For instance, it can be seen that 17 of the 22 patients have body masses between 50 kg and 76 kg (both inclusive). This information cannot easily be obtained from the raw data.  
+It should be noted that, even though above table is concise, some information is lost. For example, the grouped frequency distribution does not give us the exact body masses of the patients. Thus the individual body masses of the patients are lost in our effort to obtain an overall picture.  
 
-Above table gives the frequency of each group or class; it is therefore
-called a grouped frequency table or a grouped frequency distribution.
-Using this grouped frequency distribution, it is easier to obtain
-information about the data than using the raw data. For instance, it can
-be seen that 17 of the 22 patients have body masses between 50 kg and 76
-kg (both inclusive). This information cannot easily be obtained from the
-raw data.
+## Terms used in grouped frequency tables.
 
-It should be noted that, even though above table is concise, some
-information is lost. For example, the grouped frequency distribution
-does not give us the exact body masses of the patients. Thus the
-individual body masses of the patients are lost in our effort to obtain
-an overall picture.
+**Class limits**  
 
-We now define the terms that are used in grouped frequency tables.
+The intervals into which the observations are put are called [class intervals]{.ul}. The end points of the class intervals are called [class limits]{.ul}. For example, the class interval 41 -- 49, has lower class limit 41 and upper class limit 49.  
 
-**(i) Class limits**
+**Class boundaries**
 
-The intervals into which the observations are put are called [class
-intervals]{.ul}. The end points of the class intervals are called [class
-limits]{.ul}. For example, the class interval 41 -- 49, has lower class
-limit 41 and upper class limit 49.
+The raw data in the above example were recorded to the nearest kilogram. Thus, a body mass of 49.5kg would have been recorded as 50 kg, a body mass of 58.4 kg would have been recorded as 58 kg, while a body mass of 58.5 kg would have been recorded as 59 kg. It can therefore be seen
+that, the class interval 50 -- 58, consists of measurements greater than or equal to 49.5 kg and less than 58.5 kg. The numbers 49.5 and 58.5 are called the lower and upper boundaries of the class interval 50 -- 58. The class boundaries of the other class intervals are given below:
 
-**(ii) Class boundaries**
+```{r clsslmt, echo=FALSE,fig.cap='Class boundary and class limits',fig.height=4, fig.align='center'}
+knitr::include_graphics(rep("images/image7.jpeg"))
+```   
+[Note:]{.ul}  
+Notice that the lower class boundary of the i^th^ class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)^th^ class interval (i = 2, 3, 4, ...). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (50 + 49) /2 = 49.5 and (68 + 67)/2 = 67.5 respectively.  
+It can also be seen that the upper class boundary of the i^th^ class interval is the mean of the upper class limit of the class interval and the lower class limit of the (i+1)^th^ class interval (i = 1, 2, 3, ...). Thus, in the above table the upper class boundary of the fourth class
+interval is (76 + 77)/2 = 76.5.  
 
-The raw data in the above example were recorded to the nearest kilogram.
-Thus, a body mass of 49.5kg would have been recorded as 50 kg, a body
-mass of 58.4 kg would have been recorded as 58 kg, while a body mass of
-58.5 kg would have been recorded as 59 kg. It can therefore be seen
-that, the class interval 50 -- 58, consists of measurements greater than
-or equal to 49.5 kg and less than 58.5 kg. The numbers 49.5 and 58.5 are
-called the lower and upper boundaries of the class interval 50 -- 58.
-The class boundaries of the other class intervals are given below:
+**Class mark**  
+The mid-point of a class interval is called the class mark or class mid-point of the class interval. It is the average of the upper and lower class limits of the class interval. It is also the average of the upper and lower class boundaries of the class interval. For example, in the table, the class mark of the third class interval was found as
+follows: class mark =(59+67) /2 = (58.5 + 67.5)/2= 63.  
 
-![dfgds.JPG](media\image7.jpeg){width="4.958333333333333in"
-height="1.5166666666666666in"}
+**Class width**  
+The difference between the upper and lower class boundaries of a class interval is called the class width of the class interval. Class widths of class intervals can also be found by subtracting two consecutive lower class limits, or by subtracting two consecutive upper class limits.
 
-Note:
+[Note:]{.ul}  
 
-Notice that the lower class boundary of the i^th^ class interval is the
-mean of the lower class limit of the class interval and the upper class
-limit of the (i-1)^th^ class interval (i = 2, 3, 4, ...). For example,
-in the table above the lower class boundaries of the second and the
-fourth class intervals are (50 + 49) /2 = 49.5 and (68 + 67)/2 = 67.5,
-respectively.
+The width of the i^th^ class interval is the numerical difference between the upper class limits of the i^th^ and the ( i-1)^th^ class intervals (i = 2, 3, ...). It is also the numerical difference between the lower class limits of the i^th^ and the (i+1) ^th^ class intervals (i = 1, 2, ...).  
 
-It can also be seen that the upper class boundary of the i^th^ class
-interval is the mean of the upper class limit of the class interval and
-the lower class limit of the (i+1)^th^ class interval (i = 1, 2, 3, ...
-). Thus, in the above table the upper class boundary of the fourth class
-interval is (76 + 77)/2 = 76.5.
+In grouped frequency table above the width of the first class interval is \|41-50\| = 9. This is the numerical difference between the lower class limits of the first and the second class intervals. The width of the second class interval is \|50-59\|= 9. This is the numerical difference between the lower class limits of the second and the third
+class intervals. It is also equal to \|58-49\| the numerical, difference between the upper class limits of the first and the second class intervals.
 
-**(iii) Class mark**
+## Construction of frequency distribution table
 
-The mid-point of a class interval is called the class mark or class
-mid-point of the class interval. It is the average of the upper and
-lower class limits of the class interval. It is also the average of the
-upper and lower class boundaries of the class interval. For example, in
-the table, the class mark of the third class interval was found as
-follows: class mark =(59+67) /2 = (58.5 + 67.5)/2= 63.
+**Step 1**. Decide how many classes you wish to use.  
+**Step 2**. Determine the class width  
+**Step 3**. Set up the individual class limits 
+**Step 4**. Tally the items into the classes  
+**Step 5**. Count the number of items in each class  
 
-**(iv) Class width**
-
-The difference between the upper and lower class boundaries of a class
-interval is called the class width of the class interval. Class widths
-of class intervals can also be found by subtracting two consecutive
-lower class limits, or by subtracting two consecutive upper class
-limits.
-
-Note:
-
-The width of the i^th^ class interval is the numerical difference
-between the upper class limits of the i^th^ and the ( i-1)^th^ class
-intervals (i = 2, 3, ...). It is also the numerical difference between
-the lower class limits of the i^th^ and the (i+1) ^th^ class intervals
-(i = 1, 2, ...)
-
-In grouped frequency table above the width of the first class interval
-is \|41-50\| = 9. This is the numerical difference between the lower
-class limits of the first and the second class intervals. The width of
-the second class interval is \|50-59\|= 9. This is the numerical
-difference between the lower class limits of the second and the third
-class intervals. It is also equal to \|58-49\| the numerical, difference
-between the upper class limits of the first and the second class
-intervals.
-
-**[Construction of frequency distribution table]{.ul}**
-
-## **Step 1**. Decide how many classes you wish to use. 
-
-## 
-
-## **Step 2**. Determine the class width 
-
-## 
-
-## **Step 3**. Set up the individual class limits 
-
-## 
-
-## **Step 4**. Tally the items into the classes 
-
-## 
-
-## **Step 5**. Count the number of items in each class
-
-Consider the example
-
-An agricultural student measured the lengths of leaves on an oak tree
-(to the nearest cm). Measurements on 38 leaves are as follows
-
+Consider the example  
+An agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows  
 9,16,13,7,8,4,18,10,17,18,9,12,5,9,9,16,1,8,17,1,10,5,9,11,15,6,14,9,1,12,5,16,4,16,8,15,14,17
 
 **Step 1.** Decide how many classes you wish to use.
@@ -443,7 +331,7 @@ Even though the student only measured in whole numbers, the data is
 continuous, so \"4 cm\" means the actual value could have been anywhere
 from 3.5 cm to 4.5 cm.
 
-**Cumulative frequency**
+## Cumulative frequency
 
 In many situations, we are not interested in the number of observations
 in a given class interval, but in the number of observations which are
@@ -471,7 +359,7 @@ of the classes. LCF's are obtained by adding frequencies in the
 successive classes and GCF are obtained by subtracting the successive
 class frequencies from the total frequency
 
-**Relative frequency**
+## Relative frequency
 
 It is sometimes useful to know the proportion, rather than the number,
 of values falling within a particular class interval. We obtain this
@@ -498,221 +386,6 @@ add up to 1
 | 15.5 -- 18.5 | 9         | 38           | 9            | 0.236842  |
 +--------------+-----------+--------------+--------------+-----------+
 
-[**Graphical representation of data**]{.ul}
 
-We found that information given in a frequency distribution is easier to
-interpret than raw data. Information given in a frequency distribution
-in a tabular form is easier to grasp if presented graphically. Many
-types of diagrams are used in statistics, depending on the nature of the
-data and the purpose for which the diagram is intended.
-
-**[Histogram]{.ul}**
-
-A histogram consists of rectangles with:
-
--   Bases on a horizontal axis, centres at the class marks, and lengths
-    equal to the class widths,
-
--   Areas proportional to class frequencies.
-
-Note: If the class intervals are of equal size, then the heights of the
-rectangles are proportional to the class frequencies and it is then
-customary to take the heights of the rectangles numerically equal to the
-class frequencies. If the class intervals are of different widths, then
-the heights of the rectangles are proportional
-to$\frac{\text{Class\ Frequency}}{\text{Class\ Width}}$. This ratio is
-called frequency density.
-
-Table below shows the frequency distribution of the body masses of 50
-AIDS patients. Draw a Histogram.
-
-  Mass        30 -- 39   40 -- 49   50 -- 59   60 -- 69   70 -- 79   80 -- 89
-  ----------- ---------- ---------- ---------- ---------- ---------- ----------
-  Frequency   3          6          17         13         8          3
-
-![meta-chart (1).png](media\image8.png){width="3.8521741032370955in"
-height="2.4382502187226596in"}
-
-**Cumulative frequency curve** **(Ogive)**
-
-A graph obtained by plotting a cumulative frequency against the class
-boundary and joining the points by a smooth curve, is called a
-cumulative frequency curve. It is also called as Ogive. Two types of
-ogive are there, Less Than Type Cumulative Frequency Curve (Less than
-Ogive) and Greater Than Type Cumulative Frequency Curve (Greater than
-Ogive).
-
-**Less Than Type Cumulative Frequency Curve (Less than Ogive):** Here we
-use the upper limit of the classes and the less than cumulative
-frequency to plot the curve. Let us see for the example of the body
-masses of 50 AIDS patients.
-
-  Upper limit                      39   49   59   69   79   89
-  -------------------------------- ---- ---- ---- ---- ---- ----
-  Less than Cumulative frequency   3    9    26   39   47   50
-
-![fdgd.JPG](media\image9.jpeg){width="3.240036089238845in"
-height="1.9440234033245845in"}
-
-**Greater Than Type Cumulative Frequency Curve (Greater than Ogive)**.
-Here we use the lower limit of the classes and the Greater than
-cumulative frequency to plot the curve.
-
-  Lower Limit                         30   40   50   60   70   80
-  ----------------------------------- ---- ---- ---- ---- ---- ----
-  Greater than Cumulative frequency   50   47   41   24   11   3
-
-![fdgd.JPG](media\image10.jpeg){width="3.3517596237970255in"
-height="1.9652176290463692in"}
-
-Intersection of both ogives gives the median
-
-**Frequency polygon**
-
-A grouped frequency table can also be represented by a frequency
-polygon, which is a special kind of line graph. To construct a frequency
-polygon, we plot a graph of class frequencies against the corresponding
-class mid-points and join successive points with straight lines.
-
-  Class Midpoints   34.5   44.5   54.5   64.5   74.5   84.5
-  ----------------- ------ ------ ------ ------ ------ ------
-  Frequencies       3      6      17     13     8      3
-
-![fdgd.JPG](media\image11.jpeg){width="4.308968722659667in"
-height="2.591304680664917in"}
-
-Frequency polygon is also obtained by joining the midpoints of a
-histogram as shown below
-
-![meta-chart (1).png](media\image12.png){width="2.826087051618548in"
-height="1.7868832020997376in"}
-
-**Stem-and-leaf plot**
-
-A stem-and-leaf plot is a graphical device that is useful for
-representing a relatively small set of data which takes numerical
-values. To construct a stem-and-leaf plot, we partition each measurement
-into two parts. The first part is called the stem, and the second part
-is called the leaf. Here each numerical value is divided into two parts:
-The leading digits become the stem the trailing digits become the leaf.
-One advantage of the stem-and-leaf display over a frequency distribution
-is that we retain the value of each observation. Another is the
-distribution of the data within each groups is clear.
-
-A stem-and-leaf plot conveys similar information as a histogram. Turned
-on its side, it has the same shape as the histogram. In fact, since the
-stem-and-leaf plot shows each observation,
-
-it displays information that is lost in a histogram. A properly
-constructed stem-and-leaf plot, like a histogram, provides information
-regarding the range of the data set, shows the location of the highest
-concentration of measurements, and reveals the presence or absence of
-symmetry.
-
-Consider the example
-
-10,15,22,25,28,23,29,31,36,45,48
-
-Stem and leaf plot will look like
-
-  1   0 5
-  --- -----------
-  2   2 3 5 8 9
-  3   1 6
-  4   5 8
-
-**Bar chart**
-
-A bar chart is a diagram consisting of a series of horizontal or
-vertical bars of equal width. The bars represent various categories of
-the data. There are three types of bar charts, and these are simple bar
-charts, component bar charts and grouped bar charts.
-
-**(i) Simple bar chart**
-
-In a simple bar chart, the height (or length) of each bar is equal to
-the frequency it represents. For example data below shows the production
-of timber in five districts of kerala in a certain year.
-
-  Alappuzha   600
-  ----------- ------
-  Kannur      900
-  Trissur     1800
-  Ernakulam   1500
-  Wayanad     2400
-
-![meta-chart (1).png](media\image13.png){width="2.46956583552056in"
-height="1.5576913823272092in"}
-
-**Component bar chart**
-
-In a component bar chart, the bar for each category is subdivided into
-component parts; hence its name. Component bar charts are therefore used
-to show the division of items into components. This is illustrated in
-the following example.
-
-Example shows the distribution of sales of agricultural produce from a
-Farm in 1995, 1996 and 1997.
-
-![Capture.JPG](media\image14.jpeg){width="2.9965583989501314in"
-height="1.5843055555555556in"}
-
-![hgh.JPG](media\image15.jpeg){width="3.74170384951881in"
-height="2.1043482064741905in"}
-
-The component bar chart shows the changes of each component over the
-years as well as the comparison of the total sales between different
-years.
-
-**Grouped bar chart**
-
-For a grouped bar chart, the components are grouped together and drawn
-side by side. We illustrate this with the above example.
-
-![dfgdg.JPG](media\image16.jpeg){width="5.109370078740158in"
-height="2.3913035870516186in"}
-
-**Pie Charts**
-
-A pie chart is a circular graph divided into sectors, each sector
-representing a different value or category. The angle of each sector of
-a pie chart is proportional to the value of the part of the data it
-represents. The bar chart is more precise than the pie chart for visual
-comparison of categories with similar relative frequencies.
-
-[Steps for constructing a pie chart]{.ul}
-
-\(1\) Find the sum of the category values.
-
-\(2\) Calculate the angle of the sector for each category, using the
-following formula
-
-Angle of the sector for category A =
-$\frac{\text{value\ of\ category\ A}}{\text{sum\ of\ category\ values}} \times 360$
-
-\(3\) Construct a circle and mark the centre.
-
-\(4\) Use a protractor to divide the circle into sectors, using the
-angles obtained in step 2.
-
-\(5\) Label each sector clearly.
-
-See the example:
-
-A housewife spent the following sums of money on buying ingredients for
-a family Christmas cake.
-
-  Ingredients     Price     Angle
-  --------------- --------- ------------------
-  Flour           24        (24/240)×360= 36
-  Margarine       96        144
-  Sugar           18        27
-  Eggs            60        90
-  Baking powder   12        18
-  Miscellaneous   30        45
-  **Total**       **240**   **360**
-
-![hhhh.JPG](media\image17.jpeg){width="3.840036089238845in"
-height="2.4097101924759405in"}
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
