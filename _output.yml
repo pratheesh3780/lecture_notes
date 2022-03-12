@@ -2,7 +2,7 @@ bookdown::gitbook:
   css: custom.css  
   config:
     toc: 
-      collapse: none  
+      collapse: section 
       before: |
         <li><a href="./">LECTURE NOTES</a></li>
       after: |
