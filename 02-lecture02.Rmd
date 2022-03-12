@@ -176,4 +176,8 @@ A housewife spent the following sums of money on buying ingredients for a family
 
 ```{r oiechart, echo=FALSE,fig.cap='Pie chart',fig.height=6, fig.align='center'}
 knitr::include_graphics(rep("images/image17.jpeg"))
-```
+```  
+
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
+
