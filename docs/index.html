@@ -920,12 +920,44 @@ $(document).ready(function () {
 <p>Please enter the passcode given by your course teacher</p>
 <br>
 <br>
-<p>Enter password: <input type="password" onkeyup="onPass(event)" id="pass"> <span id="status"></span>
+<p><b>Enter password:</b> <input type="password" onkeyup="onPass(event)" id="pass"> <span id="status"></span>
 <br>
 <br>
-<img src="images/logo.png" alt="MeLoN" width="500" height="600">
-<br>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="cover.png" alt="cover" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="logo.png" alt="logo" style="width:50%">
+  </div>
+</div>
+
+</body>
+</html>
 
 <iframe id="iframe" frameborder="0" style="position: fixed;
 border: none;
